@@ -9,6 +9,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, copy) void (^myProBlock) (void);
+
 
 @end
 
